@@ -1,0 +1,109 @@
+/*=================================*/
+/*=============DESKTOP=============*/
+/*=================================*/
+body{}
+
+/*-------------Header-------------*/
+/*.padA{padding:16px 24px 16px;}*/
+.bord{border-left:solid 16px lightblue;}
+.mobile_head{display:none;}
+
+/*-------------Learn Everyday-------------*/
+.padB{padding:32px 24px 32px;margin-bottom:0;border-radius:0;}
+.pad2B{padding:0px 24px 0;}
+.learnboxA img{width:100%;display:block;}
+.learnboxB{padding-top:95px;}
+.gapA{padding:16px 0 16px;font-size:2em;}
+.btn{width:85%;border-radius:0;}
+
+/*-------------Keep Practicing-------------*/
+.padC{padding:32px 24px 32px;margin-bottom:0;border-radius:0;}
+.pad2C{padding:0 24px 0 24px;}
+.keepboxA img{width:100%;display:block;}
+.gapB{padding:8px 0 8px;font-size:1em;}
+.keepboxC img{width:100%;display:block;}
+.mobile_version img{display:none;}
+.gridA{padding:0 0 16px 16px;}
+.gridB{padding:16px 0 16px 16px;}
+p.posit{text-align:left;padding-bottom:24px;}
+p.sizing{padding-top:24px;}
+.keepboxD{padding-top:48px;}
+.keepboxE{padding-top:43px;}
+
+/*-------------Start Learning-------------*/
+.start_learning{background:lightgray;}
+.h1{text-align:center;padding:32px 0 32px;}
+.start_box{background:white;margin-bottom:32px;}
+.start_box img{width:100%;display:block;/*transform:scale(1);transition:all 1s;*/}
+/*.start_box{overflow:hidden;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.start_box img:hover{transform:scale(1.2);}*/
+.formative{padding:16px;}
+.gapC{padding:8px 0 8px;}
+.start_box_mobile{display:none;}
+
+/*-------------Thesis Exhibit-------------*/
+.padD{padding:0 24px 32px;margin-bottom:0;border-radius:0;}
+.padE{padding:0 24px 0;}
+.gridC{padding:16px 0 16px 16px;}
+p.thesis{padding:24px 0 8px;}
+.thesisboxA img{width:100%;display:block;}
+.thesisboxB{padding-top:57px;}
+.thesisboxC{padding-top:65px;}
+
+/*-------------Footer-------------*/
+.padF{margin-bottom:0;padding:16px 24px 16px;border-top:solid 1px lightgray;border-radius:0;}
+a.no-line{text-decoration-line:none;}
+
+
+
+/*===========================================*/
+/*=============RESPONSIVE-MOBILE=============*/
+/*===========================================*/
+@media (max-width:576px){
+	.padA{display:none;}
+	.mobile_head{display:block;}
+	
+/*-------------Learn Everyday-------------*/
+	.padB{padding:0;width:100%;}
+	.pad2B{padding:0;width:100%;}
+	.backA{background:#787878;}
+	.learnboxB{padding-top:0;padding-left:16px;}
+	.learnboxB h1{font-size:2.2em;padding:32px 16px 32px;}
+	.gapA{padding:0 16px 24px;font-size:1.2em;}
+	.btn{width:100%;}
+	.bttn{padding:0 16px 32px;}
+
+/*-------------Keep Practicing-------------*/
+	.del{display:none;}
+	.gridA{padding:0;}
+	.gridB{padding:32px 0 0 0;}
+	.backB{background:#e9ecef;}
+	.keepboxC img{display:none;}
+	.mobile_version img{display:block;width:100%;}
+	.keepboxD{padding:32px 0 0 0;}
+	.mobileA{padding:0;}
+	.keepboxE{padding-top:0;}
+	.fontsize{font-size:1.4em;}
+
+/*-------------Start Learning-------------*/
+	.h1{padding-bottom:16px;font-size:2.2em;}
+	.start_box{display:none;}
+	.mobile_decor .h4{font-size:1.4em;}
+	.lastone{padding:0 16px 32px;}
+	.start_box_mobile{display:block;margin-bottom:8px;}
+	.mobile_clickA, .mobile_clickB, .mobile_clickC, .mobile_clickD, .mobile_clickE, .mobile_clickF{display:block;cursor:pointer;}
+	.mobile_decor{background:#b4b4b4;padding:16px;}
+	.mobile_decor a{text-decoration:none;}
+	.mobile_decor img{width:100%;display:block;padding-top:8px;}
+
+/*-------------Thesis Exhibit-------------*/
+	.thesisbox{display:none;}
+	.mobileC{display:none;}
+	.padD{padding:0 0 24px 0;}
+	.padE{padding:0;width:100%;}
+
+/*-------------Footer-------------*/
+	.padF{padding-left:16px;}
+	.mobile_thesis{margin-bottom:0 !important;}
+	.mobile_thesis h6{text-align:left;}
+}
